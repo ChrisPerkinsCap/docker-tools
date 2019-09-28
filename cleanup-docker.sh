@@ -21,3 +21,13 @@ printf "\n"
 printf "\n"
 
 docker volume ls
+
+docker image prune<<EOF
+y
+EOF
+
+printf "\n"
+printf "\n"
+printf "\n"
+
+docker image ls
